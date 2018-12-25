@@ -20,11 +20,11 @@ The data operation mainly includes
 * Table data operation (iteration, selection)
 * Operation on Dict, Tuple and Vector data structure
 
-**Tabel 1-** Data structure and tabula data package used
+**Tabel 1-** Data structure and tabular data package used
 
 |              | Julia 1.02    | Python 3.6.5  |
 | -------------| ------------- |:-------------:|
-| Package for tabula data   | Pandas 0.2    | JuliaDB 0.10  |
+| Package for tabular data   | Pandas 0.2    | JuliaDB 0.10  |
 | List   | [x1,x2,..]    | Vector{T}()  |
 | Dict   | {k1:V1, ...}    | Dict{T1,T2}()  |
 | Tuple   | (v1,...)    | Tuple{T1,T2}()  |
