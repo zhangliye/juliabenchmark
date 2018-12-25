@@ -1,6 +1,6 @@
 # juliabenchmark
 * **Aim of the benchmark**   
-This benchmark aims to evaluate the Julia code using real-work data from the perspective of a normal user (not expert from the computing science ). Hope it could be used to improve the Language and package.
+This benchmark aims to evaluate the Julia code using real-world data from the perspective of a normal user (not expert from computing science ). Hope it could be used to improve the Language and package.
 
 * **Data source**  
 Transit network data of New York (Open Data).

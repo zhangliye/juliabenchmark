@@ -1,8 +1,5 @@
 import math
 import sys
-from osgeo import ogr
-from shapely.geometry import LineString
-from shapely.geometry import Point
 import pandas as pd
 
 def get_stop_pos(frm_stop, stop_id):
