@@ -1,0 +1,9 @@
+name = "tablebenchmark"
+uuid = "b5523080-0827-11e9-17f6-f9af18e7607f"
+authors = ["zhangly <liyezn@outlook.com>"]
+version = "0.1.0"
+
+[deps]
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+JuliaDB = "a93385a2-3734-596a-9a66-3cfbb77141e6"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
