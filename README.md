@@ -11,6 +11,7 @@ Extract the points on the bus routes between every pair of the consequential bus
 * **About the code**
 Currently, both of Python and Julia code are not optimized. In the future, the Julia version will be optimized and all old versions will be recorded for the comparison purpose. The Python code will not be optimized and kept as the benchmark.
 
+## 1 Test and Results
 The two version of code implement the same algorithm. Firstly, the algorithm is implemented using Python. Then, the Python code is translated to Julia almost line by line.
 
 *# It should be noted that both version of the code are not optimized with much effort.*
@@ -49,3 +50,25 @@ Platform Info:
   WORD_SIZE: 64   
   LIBM: libopenlibm   
   LLVM: libLLVM-6.0.0 (ORCJIT, skylake)   
+
+## 2 How to run the test on your machine ?
+* Step1: Download the code and data  
+```
+$ git clone https://github.com/zhangliye/juliabenchmark.git
+```
+* Step 2: Active the project
+```
+$ cd juliabenchmark/tablebenchmark
+$ julia
+(tablebenchmark) pkg> activate .
+```
+* Step 3: Run julia code test
+```
+(tablebenchmark) pkg> test
+```
+* Step 4: Run Python code test
+```
+$python ./src/extract_segment.py
+```
+
+## 3 Summary and discussion
