@@ -22,9 +22,9 @@ The data operation mainly includes
 
 **Tabel 1-** Data structure and tabular data package used
 
-|              | Julia 1.02    | Python 3.6.5  |
+|              | Python 3.6.5  | Julia 1.02 |
 | -------------| ------------- |:-------------:|
-| Package for tabular data   |  JuliaDB 0.10  | Pandas 0.2  |
+| Package for tabular data   |  Pandas 0.23 | JuliaDB 0.10 |
 | List   | [x1,x2,..]    | Vector{T}()  |
 | Dict   | {k1:V1, ...}    | Dict{T1,T2}()  |
 | Tuple   | (v1,...)    | Tuple{T1,T2}()  |
