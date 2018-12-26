@@ -1,6 +1,6 @@
 # juliabenchmark
 * **Aim of the benchmark**   
-This benchmark aims to evaluate the Julia code using real-world data from the perspective of a normal user (not expert from computing science ). Hope it could be used to improve the Language and package.
+This benchmark aims to evaluate the Julia code using real-world data from the perspective of a normal user (not expert from computing science ). Hope it could be helpful to improve the Language and package.
 
 * **Data source**  
 Transit network data of New York (Open Data).
@@ -9,7 +9,7 @@ Transit network data of New York (Open Data).
 Extract the points on the bus routes between every pair of the consequential bus stops.
 
 * **About the code**
-Currently, both of Python and Julia code are not optimized. In the future, the Julia version will be optimized and all old versions will be recorded for the comparison purpose. The Python code will not be optimized as the benchmark.
+Currently, both of Python and Julia code are not optimized. In the future, the Julia version will be optimized and all old versions will be recorded for the comparison purpose. The Python code will not be optimized and kept as the benchmark.
 
 The two version of code implement the same algorithm. Firstly, the algorithm is implemented using Python. Then, the Python code is translated to Julia almost line by line.
 
@@ -24,7 +24,7 @@ The data operation mainly includes
 
 |              | Julia 1.02    | Python 3.6.5  |
 | -------------| ------------- |:-------------:|
-| Package for tabular data   | Pandas 0.2    | JuliaDB 0.10  |
+| Package for tabular data   |  JuliaDB 0.10  | Pandas 0.2  |
 | List   | [x1,x2,..]    | Vector{T}()  |
 | Dict   | {k1:V1, ...}    | Dict{T1,T2}()  |
 | Tuple   | (v1,...)    | Tuple{T1,T2}()  |
