@@ -72,3 +72,4 @@ $python ./src/extract_segment.py
 ```
 
 ## 3 Summary and discussion
+The current Julia version code is translated from Python code line by line. Please point out the improper code and I will update the new results. Hope the results would be helpful to improve the package and language from the perspective of the normal users.
